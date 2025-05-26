@@ -1,0 +1,31 @@
+name: autilearner_flutter_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.8.0
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/
+    - assets/images_alphabet/
+    - assets/images_shape/
+    - assets/images_animal/
+    - assets/images_score/
+    - assets/images_emotion/
+    - assets/images_story/
+  fonts:
+      - family: Roboto
+        fonts:
+          - asset: assets/fonts/Roboto-Regular.ttf
