@@ -100,7 +100,7 @@ class _LearnAtoZState extends State<LearnAtoZ> {
                                   : null,
 
                           child: Image.asset(
-                            '$imagesAlphabet/${listOptions[0]}.png',
+                            '$imagesAlphabet${listOptions[0]}.png',
 
                             fit: BoxFit.contain,
                           ),
@@ -131,7 +131,7 @@ class _LearnAtoZState extends State<LearnAtoZ> {
                                   ? Colors.redAccent
                                   : null,
                           child: Image.asset(
-                            '$imagesAlphabet/${listOptions[1]}.png',
+                            '$imagesAlphabet${listOptions[1]}.png',
 
                             fit: BoxFit.contain,
                           ),
@@ -161,7 +161,7 @@ class _LearnAtoZState extends State<LearnAtoZ> {
                                   ? Colors.redAccent
                                   : null,
                           child: Image.asset(
-                            '$imagesAlphabet/${listOptions[2]}.png',
+                            '$imagesAlphabet${listOptions[2]}.png',
 
                             fit: BoxFit.contain,
                           ),
@@ -191,7 +191,7 @@ class _LearnAtoZState extends State<LearnAtoZ> {
                                   ? Colors.redAccent
                                   : null,
                           child: Image.asset(
-                            '$imagesAlphabet/${listOptions[3]}.png',
+                            '$imagesAlphabet${listOptions[3]}.png',
 
                             fit: BoxFit.contain,
                           ),
